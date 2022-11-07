@@ -1,4 +1,4 @@
-#Unit 19 Homework: Predicting Credit Risk
+Unit 19 Homework: Predicting Credit Risk
 
 In this assignment, I will be building a machine learning model that attempts to predict whether a loan will be approved or not.
 
