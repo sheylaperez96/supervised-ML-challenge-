@@ -7,6 +7,8 @@ In this assignment, I will be building a machine learning model that attempts to
 ### **Part 1**: Making a Prediction
 My prediction is that the logistic regression model will perform better than the random forest model. The purpose of this model is to help others make a decision (is this a risky loan?), and logistic regression models are very suitable for binary classification. Furthermore, there are not that many dependent variables (7) and all of the variables are numerical, so logistic regression is a good match for the data.
 
+<hr>
+
 ### **Part 2**: Scoring the Models
 Below are the different test scores for both models:
 - Logistic Regression Training Score: 0.9924680148576145
