@@ -1,19 +1,15 @@
-Unit 19 Homework: Predicting Credit Risk
+# Unit 19 Homework: Predicting Credit Risk
 
-In this assignment, I will be building a machine learning model that attempts to predict whether a loan will be approved or not.
+In this assignment, I will be building a machine learning model that attempts to predict whether a loan will be approved or not. I will be using the [lending data](Resources/lending_data.csv) to create two machine learning models to classify the risk level of given loans. Specifically, I will be comparing a Logistic Regression model and Random Forest Classifier model.
 
+<hr>
 
+### **Part 1**: Making a Prediction
+My prediction is that the logistic regression model will perform better than the random forest model. The purpose of this model is to help others make a decision (is this a risky loan?), and logistic regression models are very suitable for binary classification. Furthermore, there are not that many dependent variables (7) and all of the variables are numerical, so logistic regression is a good match for the data.
 
-Lending services companies allow individual investors to partially fund personal loans as well as buy and sell notes backing the loans on a secondary market. This data will be used to
-You will be using this data to create machine learning models to classify the risk level of given loans. Specifically, you will be comparing the Logistic Regression model and Random Forest Classifier.
+### **Part 2**: Scoring the Models
+Below are the different test scores for both models:
+- Logistic Regression Training Score: 0.9924680148576145
+- Random Forest Training Score: 0.9921584812216261
 
-In this assignment, I built an interactive dashboard to explore the Belly Button Biodiversity dataset, which catalogs the microbes that colonize human navels.
-
-The dataset reveals that a small handful of microbial species (also called operational taxonomic units, or OTUs, in the study) were present in more than 70% of people, while the rest were relatively rare.
-
-Checkout the page here: https://sheylaperez96.github.io/web-visualizations-challenge/
-
-Instructions
-Create a horizontal bar chart with a dropdown menu to display the top 10 OTUs found in that individual.
-Display the sample metadata, i.e., an individual's demographic information.
-Create a bubble chart that displays each sample.
+Based on these results, the logistic regression model performs slightly better, but the difference is negigible. It looks like both models perform very well on the data. If I had to choose a model, I would go with logistic regression since it is easier to interpret and explain, and it also runs faster than Random Forest.
