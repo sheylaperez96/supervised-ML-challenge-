@@ -10,7 +10,7 @@ My prediction is that the logistic regression model will perform better than the
 <hr>
 
 ### **Part 2**: Scoring the Models
-Below are the different test scores for both models:
+Below are the test scores for both models:
 - Logistic Regression Training Score: 0.9924680148576145
 - Random Forest Training Score: 0.9921584812216261
 
