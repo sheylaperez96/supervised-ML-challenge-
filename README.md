@@ -11,7 +11,7 @@ My prediction is that the logistic regression model will perform better than the
 
 ### **Part 2**: Scoring the Models
 Below are the test scores for both models:
-- Logistic Regression Training Score: 0.9924680148576145
-- Random Forest Training Score: 0.9921584812216261
+- **Logistic Regression Training Score**: 0.9924680148576145
+- **Random Forest Training Score**: 0.9921584812216261
 
 Based on these results, the logistic regression model performs slightly better, but the difference is negligible. It looks like both models perform very well on the data. If I had to choose a model, I would go with logistic regression since it is easier to interpret and explain, and it also runs faster than Random Forest.
